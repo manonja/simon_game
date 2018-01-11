@@ -1,4 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P|Righteous);
+
 body {
+    padding: 0;
+    margin: 0;
     background-image:
           url("https://media.giphy.com/media/fV5FG8TpqGcso/giphy-facebook_s.jpg");
-      }
+}
+
+.container {
+    position: absolute;
+	display: flex;
+	flex-direction: column;
+	top: 20%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    content: center;
+    max-width:400px;
+}
+
+.game {
+    position:relative;
+    border-radius:50%;
+    width:500px;
+    height:500px;
+    background:#000;
+    margin:20px;
+}
+
+.game::before {
+   content:' ';
+   left:50%;
+   top:50%;
+   border-radius:85px;
+   position:absolute;
+   display:block;
+   width:170px;
+   height:170px;
+   background:#000;
+   z-index:99;
+   margin: -85px;
+}
+
+
+.btn.green {
+    left:65px;
+    top:65px;
+    background:#00cc99;
+    border-radius:320px 20px 20px;
+}
+
+.btn.red {
+    right:65px;
+    top:65px;
+    background:#ff33cc;
+    border-radius:20px 320px 20px 20px;
+
+}
+
+.btn.blue {
+    bottom:65px;
+    right:65px;
+    background:#3333ff;
+    border-radius:20px 20px 320px 20px;
+
+}
+
+.btn.yellow {
+    bottom:65px;
+    left:65px;
+    background:#ffff00;
+    border-radius:20px 20px 20px 320px;
+
+}
+
+.btn {
+    position:absolute;
+    width:180px;
+    height:180px;
+    background:rgba(10,10,10,10);
+    opacity: 0.6;
+    transition:all 300ms ease;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:active {
+    opacity: 1;
+}
+
+.game .dashboard {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 17px;
+    line-height: 200%;
+    position:absolute;
+    cursor: pointer;
+    display:block;
+    background:rgb(255,255,255);
+    width:150px;
+    padding-top:40px;
+    height:140px;
+    border-radius:70px;
+    left:47%;
+    top:48%;
+    text-align:center;
+    z-index:100;
+    margin:-60px;
+}
