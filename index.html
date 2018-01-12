@@ -3,9 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>Simon Game</title>
-
         <!-- responsive  -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Toggle bootstrap -->
+        <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -15,7 +16,7 @@
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <!-- Google font -->
-        <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 
         <script type="text/javascript" src="app.js"></script>
         <link type="text/css" rel="stylesheet" href="style.css">
@@ -25,14 +26,35 @@
     <body>
         <div class="container">
             <div class="game">
-                <div class="btn green"></div>
-                <div class="btn red"></div>
-                <div class="dashboard" id="display">count</div>
-                <div class="btn blue"></div>
-                <div class="btn yellow"></div>
+                <div class="press green" id="btn1"></div>
+                <div class="press red" id="btn2"></div>
+                <div class="press blue" id="btn3"></div>
+                <div class="press yellow" id="btn4"></div>
+
+                <div class="dashboard" id="display">
+                    <div class="container">
+                        <div class="title">Simon<span class="small">®</span></div>
+                        <div class="clearfix">
+                          <div class="inline pull-left">
+                              <input type="number" class="form-control" id="counter" placeholder="--">
+                          </div>
+                          <div class="inline pull-right" data-toggle="buttons-checkbox">
+                              <button type="button" class="btn-circle" id="start"></button>
+                              <button type="button" class="btn-circle" id="strict"></button>
+                          </div>
+                        </div>
+                        <div class="clearfix">
+                            <input type="checkbox" id="trigger" checked data-toggle="toggle" data-size="mini" data-onstyle="default" data-style="slow">
+                        </div>
+                </div>
             </div>
         </div>
+    </div>
+
 
         <script type="text/javascript" src="app.js"></script>
+        <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+
     </body>
 </html>

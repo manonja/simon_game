@@ -1,6 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Press+Start+2P|Righteous);
-
 body {
+    font-family: 'Acme', sans-serif;
     padding: 0;
     margin: 0;
     background-image:
@@ -26,6 +25,7 @@ body {
     height:500px;
     background:#000;
     margin:20px;
+
 }
 
 .game::before {
@@ -42,15 +42,14 @@ body {
    margin: -85px;
 }
 
-
-.btn.green {
+.press.green {
     left:65px;
     top:65px;
     background:#00cc99;
     border-radius:320px 20px 20px;
 }
 
-.btn.red {
+.press.red {
     right:65px;
     top:65px;
     background:#ff33cc;
@@ -58,7 +57,7 @@ body {
 
 }
 
-.btn.blue {
+.press.blue {
     bottom:65px;
     right:65px;
     background:#3333ff;
@@ -66,7 +65,7 @@ body {
 
 }
 
-.btn.yellow {
+.press.yellow {
     bottom:65px;
     left:65px;
     background:#ffff00;
@@ -74,7 +73,7 @@ body {
 
 }
 
-.btn {
+.press {
     position:absolute;
     width:180px;
     height:180px;
@@ -83,18 +82,18 @@ body {
     transition:all 300ms ease;
 }
 
-.btn:hover {
+.press:hover {
     opacity: 0.9;
 }
 
-.btn:active {
+.press:active {
     opacity: 1;
 }
 
 .game .dashboard {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 17px;
-    line-height: 200%;
+    font-family: 'Acme', sans-serif;
+    /*font-size: 17px;*/
+    /*line-height: 200%;*/
     position:absolute;
     cursor: pointer;
     display:block;
@@ -108,4 +107,52 @@ body {
     text-align:center;
     z-index:100;
     margin:-60px;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.form-control {
+    width: 45px;
+    height: 35px;
+    background-color: grey;
+}
+input[type=number] {
+    text-align: center;
+    color: red;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.btn-circle {
+    width: 25px;
+    height: 25px;
+    text-align: left;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 50%;
+}
+
+.clearfix {
+    padding-top: 5%;
+}
+
+.slow .toggle-group {
+    transition: left 0.7s; -webkit-transition: left 0.7s;
+}
+
+.btn-circle#start {
+    background-color: #f72242;
+}
+
+.btn-circle#strict {
+    background-color: yellow;
 }
