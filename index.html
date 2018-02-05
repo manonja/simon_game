@@ -20,41 +20,41 @@
 
         <script type="text/javascript" src="app.js"></script>
         <link type="text/css" rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="animate.min.css">
+
 
 
     </head>
     <body>
         <div class="container">
             <div class="game">
-                <div class="press green" id="btn1"></div>
-                <div class="press red" id="btn2"></div>
-                <div class="press blue" id="btn3"></div>
-                <div class="press yellow" id="btn4"></div>
+                <div class="press green" id="green" onclick="addPlayer(this.id)"></div>
+                <div class="press red" id="red" onclick= "addPlayer(this.id)"></div>
+                <div class="press blue" id="blue" onclick= "addPlayer(this.id)"></div>
+                <div class="press yellow" id="yellow" onclick= "addPlayer(this.id)"></div>
 
                 <div class="dashboard" id="display">
                     <div class="container">
                         <div class="title">Simon<span class="small">®</span></div>
                         <div class="clearfix">
                           <div class="inline pull-left">
-                              <input type="number" class="form-control" id="counter" placeholder="--">
+                              <div id="counter">0</div>
                           </div>
-                          <div class="inline pull-right" data-toggle="buttons-checkbox">
-                              <button type="button" class="btn-circle" id="start"></button>
-                              <button type="button" class="btn-circle" id="strict"></button>
+                          <div class="inline pull-right">
+                              <button type="button" class="btn-circle" id="start" onclick="startGame()"><span class="small">start</span></button>
+                              <button type="button" class="btn-circle" id="strict" onclick= "strictMode()"><span class="small">strict</span></button>
                           </div>
                         </div>
-                        <div class="clearfix">
-                            <input type="checkbox" id="trigger" checked data-toggle="toggle" data-size="mini" data-onstyle="default" data-style="slow">
+                        <div class="clearfix" id="trig-game">
+                            <input type="checkbox" checked data-toggle="toggle" data-size="mini" data-onstyle="default" data-style="slow">
                         </div>
                 </div>
             </div>
         </div>
     </div>
 
-
-        <script type="text/javascript" src="app.js"></script>
-        <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
-
+    <script type="text/javascript" src="app.js"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 
     </body>
 </html>

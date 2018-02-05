@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+startGame	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function startGame() {$/;"	function	line:20
+resetGame	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function resetGame() {$/;"	function	line:27
+addStep	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function addStep(){$/;"	function	line:34
+generateStep	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function generateStep() {$/;"	function	line:41
+displayBtnPressed	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function displayBtnPressed() {$/;"	function	line:46

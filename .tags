@@ -5,3 +5,40 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 simon_game	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/README.md	/^# simon_game$/;"	function	line:1
+html	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^<html>$/;"	function	line:2
+head	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^    <head>$/;"	function	line:3
+meta	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^        <meta charset="utf-8">$/;"	function	line:4
+title	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^        <title>Simon Game<\/title>$/;"	function	line:5
+meta	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^        <meta name="viewport" content="width=device-width, initial-scale=1.0">$/;"	function	line:7
+link	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^        <link href="https:\/\/gitcdn.github.io\/bootstrap-toggle\/2.2.2\/css\/bootstrap-toggle.min.css" rel="stylesheet">$/;"	function	line:9
+link	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^        <link rel="stylesheet" href="https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.3.7\/css\/bootstrap.min.css">$/;"	function	line:11
+script	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^        <script src="https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.2.1\/jquery.min.js"><\/script>$/;"	function	line:14
+script	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^        <script src="https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.3.7\/js\/bootstrap.min.js"><\/script>$/;"	function	line:17
+link	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^        <link href="https:\/\/fonts.googleapis.com\/css?family=Acme" rel="stylesheet">$/;"	function	line:19
+script	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^        <script type="text\/javascript" src="app.js"><\/script>$/;"	function	line:21
+link	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^        <link type="text\/css" rel="stylesheet" href="style.css">$/;"	function	line:22
+body	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^    <body>$/;"	function	line:26
+div	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^        <div class="container">$/;"	function	line:27
+div	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^            <div class="game">$/;"	function	line:28
+div	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^                <div class="press green" id="btn1" src="https:\/\/s3.amazonaws.com\/freecodecamp\/simonSound1.mp3"><\/div>$/;"	function	line:29
+div	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^                <div class="press red" id="btn2" src="https:\/\/s3.amazonaws.com\/freecodecamp\/simonSound2.mp3"><\/div>$/;"	function	line:30
+div	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^                <div class="press blue" id="btn3" src="https:\/\/s3.amazonaws.com\/freecodecamp\/simonSound3.mp3"><\/div>$/;"	function	line:31
+div	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^                <div class="press yellow" id="btn4" src="https:\/\/s3.amazonaws.com\/freecodecamp\/simonSound4.mp3"><\/div>$/;"	function	line:32
+div	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^                <div class="dashboard" id="display">$/;"	function	line:34
+div	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^                    <div class="container">$/;"	function	line:35
+div	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^                        <div class="title">Simon<span class="small">®<\/span><\/div>$/;"	function	line:36
+div	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^                        <div class="clearfix">$/;"	function	line:37
+div	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^                          <div class="inline pull-left">$/;"	function	line:38
+input	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^                              <input type="number" class="form-control" id="counter" value="0">$/;"	function	line:39
+div	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^                          <div class="inline pull-right">$/;"	function	line:41
+button	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^                              <button type="button" class="btn-circle" id="start"><\/button>$/;"	function	line:42
+button	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^                              <button type="button" class="btn-circle" id="strict"><\/button>$/;"	function	line:43
+div	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^                        <div class="clearfix" id="trig-game">$/;"	function	line:46
+input	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^                            <input type="checkbox" checked data-toggle="toggle" data-size="mini" data-onstyle="default" data-style="slow">$/;"	function	line:47
+script	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^        <script type="text\/javascript" src="app.js"><\/script>$/;"	function	line:55
+script	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/index.html	/^        <script src="https:\/\/gitcdn.github.io\/bootstrap-toggle\/2.2.2\/js\/bootstrap-toggle.min.js"><\/script>$/;"	function	line:56
+startGame	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function startGame() {$/;"	function	line:20
+resetGame	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function resetGame() {$/;"	function	line:27
+addStep	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function addStep(){$/;"	function	line:34
+generateStep	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function generateStep() {$/;"	function	line:41
+displayBtnPressed	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function displayBtnPressed() {$/;"	function	line:46
