@@ -22,38 +22,96 @@
         <link type="text/css" rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="animate.min.css">
 
-
-
     </head>
     <body>
         <div class="container">
-            <div class="game">
-                <div class="press green" id="green" onclick="addPlayer(this.id)"></div>
-                <div class="press red" id="red" onclick= "addPlayer(this.id)"></div>
-                <div class="press blue" id="blue" onclick= "addPlayer(this.id)"></div>
-                <div class="press yellow" id="yellow" onclick= "addPlayer(this.id)"></div>
+  <div class="game">
+    <div class="press " id="green" onclick="addPlayer(this.id)"></div>
 
-                <div class="dashboard" id="display">
-                    <div class="container">
-                        <div class="title">Simon<span class="small">®</span></div>
-                        <div class="clearfix">
-                          <div class="inline pull-left">
-                              <div id="counter">0</div>
-                          </div>
-                          <div class="inline pull-right">
-                              <button type="button" class="btn-circle" id="start" onclick="startGame()"><span class="small">start</span></button>
-                              <button type="button" class="btn-circle" id="strict" onclick= "strictMode()"><span class="small">strict</span></button>
-                          </div>
-                        </div>
-                        <div class="clearfix" id="trig-game">
-                            <input type="checkbox" checked data-toggle="toggle" data-size="mini" data-onstyle="default" data-style="slow">
-                        </div>
-                </div>
+    <div class="press " id="red" onclick= "addPlayer(this.id)"></div>
+
+    <div class="press " id="blue" onclick= "addPlayer(this.id)"></div>
+
+    <div class="press " id="yellow" onclick= "addPlayer(this.id)"></div>
+
+
+    <div class="dashboard" id="display">
+
+      <div class="container">
+
+        <div class="title">Simon<span class="small">®</span></div>
+
+        <div class="clearfix">
+            <div id="counter">0</div>
+
+            <div class="buttons">
+             <div class="inline pull-left">
+                   <button type="button"
+                     class="btn-circle"
+                     id="start"
+                     onclick="startGame()">
+               <span class="small">GO!</span></button>
+              </div>
+
+              <div class="inline pull-right">
+
+        <button type="button"
+                class="btn-circle"
+                id="strict"
+                onclick="strictMode()">
+          <span class="small">strict</span></button>
+              </div>
+
+          </div>
+
+
+        </div>
+
+  </div>
+
+</div>
+
+</div>
+
+<!-- Audio -->
+<!-- <audio id="sound1" url="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+<audio id="sound2" url="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+<audio id="sound3" url="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+<audio id="sound4" url="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio> -->
+
+   <!-- Modal -->
+      <div class="modal fade" id="modalTryAgain" tabindex="-1" role="dialog" aria-hidden="true" data-toggle="modal">
+        <div class="modal-dialog modal-lg">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title text-center" id="main-title-2">Ups! Try again</h4>
             </div>
         </div>
+      </div>
     </div>
 
+
+          <!-- Modal -->
+          <div class="modal fade" id="modalCongrats" tabindex="-1" role="dialog" aria-hidden="true" data-toggle="modal">
+            <div class="modal-dialog modal-lg">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title text-center" id="main-title-3">*******CONGRATS!!!!!*******</h4>
+                </div>
+            </div>
+          </div>
+        </div>
+
+</div>
     <script type="text/javascript" src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 
     </body>
