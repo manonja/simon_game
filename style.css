@@ -7,17 +7,16 @@ body {
 }
 
 .container {
-    position: absolute;
+  position: relative;
 	display: flex;
 	flex-direction: column;
 	top: 20%;
 	bottom: 0;
 	left: 0;
 	right: 0;
-    content: center;
     /* responsive */
-	width: 400px;
-	max-width: 90%;
+	width: 500px;
+	max-width: 70%;
 }
 
 
@@ -28,7 +27,6 @@ body {
     height:500px;
     background:#000;
     margin:20px;
-
 }
 
 .game::before {
@@ -36,42 +34,42 @@ body {
    left:50%;
    top:50%;
    border-radius:85px;
-   position:absolute;
+   position:relative;
    display:block;
    width:170px;
-   height:170px;
+   height:180px;
    background:#000;
    z-index:99;
    margin: -85px;
 }
 
-.press.green {
+#green {
     left:65px;
     top:75px;
-    background:#00cc99;
+    background:#66FF66;
     border-radius:320px 20px 20px;
 }
 
-.press.red {
+#red {
     right:65px;
     top:75px;
-    background:#ff33cc;
+    background:#FF007C;
     border-radius:20px 320px 20px 20px;
 
 }
 
-.press.blue {
+#blue {
     bottom:55px;
     right:65px;
-    background:#3333ff;
+    background:#50BFE6;
     border-radius:20px 20px 320px 20px;
 
 }
 
-.press.yellow {
+#yellow {
     bottom:55px;
     left:65px;
-    background:#ffff00;
+    background: #FFF700;
     border-radius:20px 20px 20px 320px;
 
 }
@@ -102,14 +100,13 @@ body {
 .game .dashboard {
     font-family: 'Acme', sans-serif;
     /*font-size: 17px;*/
-    /*line-height: 200%;*/
+    line-height: 400%;
     position:absolute;
     cursor: pointer;
     display:block;
-    background:rgb(255,255,255);
+    background-image:   url("https://media.giphy.com/media/fV5FG8TpqGcso/giphy-facebook_s.jpg");
     width:150px;
-    padding-top:40px;
-    height:140px;
+    height:90px;
     border-radius:70px;
     left:47%;
     top:48%;
@@ -119,44 +116,43 @@ body {
 }
 
 .title {
-    font-size: 25px;
+  font-size: 28px;
+  color: #FF00CC;
+  letter-spacing: .2em;
 }
 
 #counter {
-    /*position: absolute;*/
-    width: 45px;
-    height: 35px;
-    font-size: 1.8em;
-    background-color: white;
-    text-align: center;
-    color: black;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    margin: 0;
+  position:flex;
+    width: 5px;
+    height: 5px;
+    font-size: 5em;
+    color: #00CC99
+;
+   background-image:   url("https://media.giphy.com/media/fV5FG8TpqGcso/giphy-facebook_s.jpg");
 }
 
 .btn-circle {
-    width: 25px;
-    height: 25px;
-    text-align: left;
-    font-size: 12px;
-    line-height: 1.428571429;
+    width: 35px;
+    height: 35px;
+    font-size: 10px;
+    text-transform: uppercase;
     border-radius: 50%;
 }
 
-.clearfix {
-    padding-top: 5%;
-}
-
-.slow .toggle-group {
-    transition: left 0.7s; -webkit-transition: left 0.7s;
-}
-
 .btn-circle#start {
-    background-color: green ;
+    background-color: #AAF0D1;
 }
 
 .btn-circle#strict {
-    background-color: red;
+    background-color: #FF007C;
+}
+
+#start {
+  margin-left:40px;
+  display:flex;
+  vertical-align: middle;
+}
+
+#strict {
+    margin-top:6px;
 }
