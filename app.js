@@ -55,16 +55,30 @@ function playGame(btn) {
 function playSound(sound) {
     switch (sound) {
     case "#green":
-        game.sounds.green.play();
+    var playPromise1 = game.sounds.green.play();
+        if(playPromise1 !== undefined){
+            playPromise1.then(function() {
+                // Automatic playback started!
+            }).catch(function(error) {
+                // Automatic playback failed.
+    // Show a UI element to let the user manually start playback.
+            })
+        };
         break;
     case "#red":
-        game.sounds.red.play();
+    var playPromise2 = game.sounds.red.play();
+        if(playPromise2 !== undefined){
+            playPromise2.then(function() {}).catch(function(error) {})};
         break;
     case "#blue":
-        game.sounds.blue.play();
+    var playPromise3 = game.sounds.blue.play();
+        if(playPromise3 !== undefined){
+            playPromise3.then(function() {}).catch(function(error) {})};
         break;
     case "#yellow":
-        game.sounds.yellow.play();
+    var playPromise4 = game.sounds.yellow.play();
+        if(playPromise4 !== undefined){
+            playPromise4.then(function() {}).catch(function(error) {})};
         break;
     }
 
