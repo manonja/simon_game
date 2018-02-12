@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background-image:
-          url("https://media.giphy.com/media/fV5FG8TpqGcso/giphy-facebook_s.jpg");
+          url("https://images.unsplash.com/photo-1504812333783-63b845853c20?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2479a089daa41eb29fad315e36f74d9c&auto=format&fit=crop&w=1950&q=80");
 }
 
 .container {
@@ -26,6 +26,7 @@ body {
     height:500px;
     background:#000;
     margin:20px;
+    background-image: url("https://images.unsplash.com/photo-1504812333783-63b845853c20?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2479a089daa41eb29fad315e36f74d9c&auto=format&fit=crop&w=1950&q=80")
 }
 
 .game::before {
@@ -40,6 +41,9 @@ body {
    background:#000;
    z-index:99;
    margin: -85px;
+   background-image: url("https://images.unsplash.com/photo-1504812333783-63b845853c20?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2479a089daa41eb29fad315e36f74d9c&auto=format&fit=crop&w=1950&q=80")
+
+
 }
 
 #green {
@@ -103,7 +107,7 @@ body {
     position:absolute;
     cursor: pointer;
     display:block;
-    background-image:   url("https://media.giphy.com/media/fV5FG8TpqGcso/giphy-facebook_s.jpg");
+    background-image: url("https://images.unsplash.com/photo-1504812333783-63b845853c20?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2479a089daa41eb29fad315e36f74d9c&auto=format&fit=crop&w=1950&q=80");
     width:150px;
     height:90px;
     border-radius:70px;
@@ -125,9 +129,8 @@ body {
     width: 5px;
     height: 5px;
     font-size: 5em;
-    color: #00CC99
-;
-   background-image:   url("https://media.giphy.com/media/fV5FG8TpqGcso/giphy-facebook_s.jpg");
+    color: #00CC99;
+   background-image:url("https://images.unsplash.com/photo-1504812333783-63b845853c20?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2479a089daa41eb29fad315e36f74d9c&auto=format&fit=crop&w=1950&q=80");
 }
 
 .btn-circle {
@@ -136,20 +139,26 @@ body {
     font-size: 10px;
     text-transform: uppercase;
     border-radius: 50%;
+    text-align: center;
+
 }
 
 .btn-circle#start {
     background-color: #AAF0D1;
+
 }
 
 .btn-circle#strict {
     background-color: #FF007C;
+
 }
 
 #start {
   margin-left:40px;
   display:flex;
   vertical-align: middle;
+  text-align: center;
+  align-content: center;
 }
 
 #strict {

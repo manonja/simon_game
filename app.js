@@ -13,6 +13,15 @@ var game = {
         yellow: new Audio('https://s3.amazonaws.com/freecodecamp/simonSound4.mp3')
     },
 }
+
+
+// If I want to restart, I can hit a button to do so, and the game will return to a single step.
+function resetGame() {
+    game.currentStep = [];
+    game.count = 0;
+    addStep();
+}
+
 // create a function that starts the game onclick start
 function startGame() {
     // reset the game so we are sure we begin from the start
@@ -22,13 +31,6 @@ function startGame() {
 function strictMode() {
     alert("strict mode activated");
     game.strictMode = true;
-}
-
-// If I want to restart, I can hit a button to do so, and the game will return to a single step.
-function resetGame() {
-    game.currentStep = [];
-    game.count = 0;
-    addStep();
 }
 
 // show the button pressed
@@ -42,14 +44,6 @@ function displayBtnPressed() {
         }
     }, 600)
     clearPlayer();
-}
-
-function playGame(btn) {
-    $(btn).addClass("pressed");
-    playSound(btn);
-    setTimeout(function () {
-        $(btn).removeClass("pressed");
-    }, 300);
 }
 
 function playSound(sound) {
@@ -84,6 +78,14 @@ function playSound(sound) {
 
 }
 
+function playGame(btn) {
+    $(btn).addClass("pressed");
+    playSound(btn);
+    setTimeout(function () {
+        $(btn).removeClass("pressed");
+    }, 300);
+}
+
 function clearPlayer() {
     game.playerTurn = [];
 }
@@ -94,13 +96,13 @@ function addPlayer(id) {
     playerTurn(btn);
 }
 
-function playerTurn(x) {
+function playerTurn(player) {
     if (game.playerTurn[game.playerTurn.length - 1] !==
         game.currentStep[game.playerTurn.length - 1]) {
         if (game.strictMode) {
             // I can play in strict mode where if I get a button press wrong, it notifies
             // me that I have done so, and the game restarts at a new random series of button presses.
-            alert("ups, try agaibn!");
+            alert("ups, try again!");
             startGame();
         } else {
             // If I press the wrong button, I am notified that I have done so, and that
@@ -108,15 +110,17 @@ function playerTurn(x) {
             alert("ups, try again!");
             displayBtnPressed();
         }
+
+        // TODO: fix bug here!!!
     } else {
         // I hear a sound that corresponds to each button both when the series of button
         // presses plays, and when I personally press a button.
-        playSound(x);
+        playSound(player);
         var check = game.playerTurn.length === game.currentStep.length;
         if (check) {
             // I can win the game by getting a series of 20 steps correct.
             // I am notified of my victory, then the game starts over.
-            if (game.count === 20) {
+            if (game.count == 20) {
                 alert("congrats!!!!");
                 startGame();
             } else {
