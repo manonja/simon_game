@@ -4,8 +4,15 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-startGame	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function startGame() {$/;"	function	line:20
-resetGame	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function resetGame() {$/;"	function	line:27
-addStep	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function addStep(){$/;"	function	line:34
-generateStep	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function generateStep() {$/;"	function	line:41
-displayBtnPressed	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function displayBtnPressed() {$/;"	function	line:46
+strictMode	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function strictMode() {$/;"	function	line:25
+playSound	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function playSound(sound) {$/;"	function	line:34
+switch	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^        switch (sound) {$/;"	function	line:36
+playGame	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function playGame(btn) {$/;"	function	line:82
+clearPlayer	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function clearPlayer() {$/;"	function	line:90
+displayBtnPressed	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function displayBtnPressed() {$/;"	function	line:95
+generateStep	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function generateStep() {$/;"	function	line:108
+addStep	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function addStep() {$/;"	function	line:114
+resetGame	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function resetGame() {$/;"	function	line:127
+startGame	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function startGame() {$/;"	function	line:134
+playerTurn	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function playerTurn(player) {$/;"	function	line:143
+addPlayer	/Users/manon/Documents/Learn_programming/FreeCodeCamp/Front_End/Advanced_Projects/simon_game/app.js	/^    function addPlayer(id) {$/;"	function	line:181
